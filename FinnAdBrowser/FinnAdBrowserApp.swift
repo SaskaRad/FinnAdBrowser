@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct FinnAdBrowserApp: App {
+    
+    init() {
+        AppearanceConfigurator.configure()
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AdTypesView(viewModel: AdsViewModel(networkService: NetworkService()))
         }
     }
 }

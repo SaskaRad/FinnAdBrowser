@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "EAFC24ED-0E7F-493C-BF26-99F422AB6C6B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "769BF50F-D6CF-49F7-A121-BB0A28E9E744"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnAdBrowser/FavoritesRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "load()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8DCAFB22-8EFC-4975-89A7-7634C4437892"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnAdBrowser/FavoritesRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "load()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7821DE56-DA5A-4E4F-9EC4-DEF84F7E7ECF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnAdBrowser/FavoritesRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "load()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DF88D277-86A2-4389-8D9B-2DFC367ED62A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnAdBrowser/FavoritesRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "load()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E2B8C41A-2FC6-4B49-B99F-CDA1EEEE4CEE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnAdBrowser/FavoritesRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "load()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E61DB225-EFB5-4094-80B1-EB6D3F6569BD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnAdBrowser/ViewModels/AdsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "updateFavoriteStatus(for:isFavorite:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E61DB225-EFB5-4094-80B1-EB6D3F6569BD - 63fbfac3fa679d6c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnAdBrowser.AdsViewModel.updateFavoriteStatus(for: Swift.String, isFavorite: Swift.Bool) -&gt; ()"
+                  moduleName = "FinnAdBrowser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saskaradosavljevic/Desktop/FINN/FinnAdBrowser/FinnAdBrowser/FinnAdBrowser/ViewModels/AdsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "1024">
+               </Location>
+               <Location
+                  uuid = "E61DB225-EFB5-4094-80B1-EB6D3F6569BD - 63fbfac3fa679d8d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnAdBrowser.AdsViewModel.updateFavoriteStatus(for: Swift.String, isFavorite: Swift.Bool) -&gt; ()"
+                  moduleName = "FinnAdBrowser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saskaradosavljevic/Desktop/FINN/FinnAdBrowser/FinnAdBrowser/FinnAdBrowser/ViewModels/AdsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "1024">
+               </Location>
+               <Location
+                  uuid = "E61DB225-EFB5-4094-80B1-EB6D3F6569BD - 63fbfac3fa679ee0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnAdBrowser.AdsViewModel.updateFavoriteStatus(for: Swift.String, isFavorite: Swift.Bool) -&gt; ()"
+                  moduleName = "FinnAdBrowser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saskaradosavljevic/Desktop/FINN/FinnAdBrowser/FinnAdBrowser/FinnAdBrowser/ViewModels/AdsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "1024">
+               </Location>
+               <Location
+                  uuid = "E61DB225-EFB5-4094-80B1-EB6D3F6569BD - 63fbfac3fa679ec3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnAdBrowser.AdsViewModel.updateFavoriteStatus(for: Swift.String, isFavorite: Swift.Bool) -&gt; ()"
+                  moduleName = "FinnAdBrowser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saskaradosavljevic/Desktop/FINN/FinnAdBrowser/FinnAdBrowser/FinnAdBrowser/ViewModels/AdsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "1024">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C5E604F-829A-488A-A3E9-44BED7073855"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnAdBrowser/ViewModels/AdsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "updateFavoriteStatus(for:isFavorite:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6C5E604F-829A-488A-A3E9-44BED7073855 - 63fbfac3fa679dcb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnAdBrowser.AdsViewModel.updateFavoriteStatus(for: Swift.String, isFavorite: Swift.Bool) -&gt; ()"
+                  moduleName = "FinnAdBrowser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saskaradosavljevic/Desktop/FINN/FinnAdBrowser/FinnAdBrowser/FinnAdBrowser/ViewModels/AdsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "440">
+               </Location>
+               <Location
+                  uuid = "6C5E604F-829A-488A-A3E9-44BED7073855 - 63fbfac3fa679de8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnAdBrowser.AdsViewModel.updateFavoriteStatus(for: Swift.String, isFavorite: Swift.Bool) -&gt; ()"
+                  moduleName = "FinnAdBrowser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saskaradosavljevic/Desktop/FINN/FinnAdBrowser/FinnAdBrowser/FinnAdBrowser/ViewModels/AdsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "440">
+               </Location>
+               <Location
+                  uuid = "6C5E604F-829A-488A-A3E9-44BED7073855 - 63fbfac3fa679d4f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnAdBrowser.AdsViewModel.updateFavoriteStatus(for: Swift.String, isFavorite: Swift.Bool) -&gt; ()"
+                  moduleName = "FinnAdBrowser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saskaradosavljevic/Desktop/FINN/FinnAdBrowser/FinnAdBrowser/FinnAdBrowser/ViewModels/AdsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "440">
+               </Location>
+               <Location
+                  uuid = "6C5E604F-829A-488A-A3E9-44BED7073855 - 63fbfac3fa679d2e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnAdBrowser.AdsViewModel.updateFavoriteStatus(for: Swift.String, isFavorite: Swift.Bool) -&gt; ()"
+                  moduleName = "FinnAdBrowser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saskaradosavljevic/Desktop/FINN/FinnAdBrowser/FinnAdBrowser/FinnAdBrowser/ViewModels/AdsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "440">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "90B667E5-A39F-49EB-9753-7ECC83A09AA0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnAdBrowser/ViewModels/AdsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "updateFavoriteStatus(for:isFavorite:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "90B667E5-A39F-49EB-9753-7ECC83A09AA0 - 63fbfac3fa679ee0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnAdBrowser.AdsViewModel.updateFavoriteStatus(for: Swift.String, isFavorite: Swift.Bool) -&gt; ()"
+                  moduleName = "FinnAdBrowser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saskaradosavljevic/Desktop/FINN/FinnAdBrowser/FinnAdBrowser/FinnAdBrowser/ViewModels/AdsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "1368">
+               </Location>
+               <Location
+                  uuid = "90B667E5-A39F-49EB-9753-7ECC83A09AA0 - 63fbfac3fa679d01"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnAdBrowser.AdsViewModel.updateFavoriteStatus(for: Swift.String, isFavorite: Swift.Bool) -&gt; ()"
+                  moduleName = "FinnAdBrowser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saskaradosavljevic/Desktop/FINN/FinnAdBrowser/FinnAdBrowser/FinnAdBrowser/ViewModels/AdsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "1368">
+               </Location>
+               <Location
+                  uuid = "90B667E5-A39F-49EB-9753-7ECC83A09AA0 - 63fbfac3fa679e64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnAdBrowser.AdsViewModel.updateFavoriteStatus(for: Swift.String, isFavorite: Swift.Bool) -&gt; ()"
+                  moduleName = "FinnAdBrowser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saskaradosavljevic/Desktop/FINN/FinnAdBrowser/FinnAdBrowser/FinnAdBrowser/ViewModels/AdsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "1368">
+               </Location>
+               <Location
+                  uuid = "90B667E5-A39F-49EB-9753-7ECC83A09AA0 - 63fbfac3fa679e47"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnAdBrowser.AdsViewModel.updateFavoriteStatus(for: Swift.String, isFavorite: Swift.Bool) -&gt; ()"
+                  moduleName = "FinnAdBrowser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saskaradosavljevic/Desktop/FINN/FinnAdBrowser/FinnAdBrowser/FinnAdBrowser/ViewModels/AdsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "1368">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D8707563-173E-4224-8E38-C09FCDA38BB9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnAdBrowser/FavoritesRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "save(items:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "30E12319-A5FD-4345-A794-227609E9704B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnAdBrowser/FavoritesRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "save(items:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7C5DA00E-323B-4C04-BDE3-C588B92971D2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnAdBrowser/FavoritesRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "save(items:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D850294F-EFD4-4393-8353-BDF84BF6570A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnAdBrowser/FavoritesRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "save(items:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5C6E21CC-8E23-4A17-BDA6-16BF7CFDE6FB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnAdBrowser/FavoritesRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "load()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5D49F64A-A6CD-4292-9FA4-8486C3DF09C4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnAdBrowser/ViewModels/AdsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "fetchAdsList()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5D49F64A-A6CD-4292-9FA4-8486C3DF09C4 - 97f2ff3ca6695484"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for FinnAdBrowser.AdsViewModel.fetchAdsList() async -&gt; ()"
+                  moduleName = "FinnAdBrowser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saskaradosavljevic/Desktop/FINN/FinnAdBrowser/FinnAdBrowser/FinnAdBrowser/ViewModels/AdsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "484">
+               </Location>
+               <Location
+                  uuid = "5D49F64A-A6CD-4292-9FA4-8486C3DF09C4 - dbe1de18b9f7f28a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (FinnAdBrowser.AdItemsContainer) -&gt; FinnAdBrowser.AdItemsContainer in FinnAdBrowser.AdsViewModel.fetchAdsList() async -&gt; ()"
+                  moduleName = "FinnAdBrowser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saskaradosavljevic/Desktop/FINN/FinnAdBrowser/FinnAdBrowser/FinnAdBrowser/ViewModels/AdsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "544">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4297C011-F127-4C93-8572-514C79CD10C2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnAdBrowser/ViewModels/AdsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "fetchAdsList()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7BEBC8F4-73AF-4884-9BD3-59B4BDD6B56E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnAdBrowser/ViewModels/AdsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "updateFavoriteStatus(for:isFavorite:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7BEBC8F4-73AF-4884-9BD3-59B4BDD6B56E - 63fbfac3fa679d8d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnAdBrowser.AdsViewModel.updateFavoriteStatus(for: Swift.String, isFavorite: Swift.Bool) -&gt; ()"
+                  moduleName = "FinnAdBrowser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saskaradosavljevic/Desktop/FINN/FinnAdBrowser/FinnAdBrowser/FinnAdBrowser/ViewModels/AdsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "328">
+               </Location>
+               <Location
+                  uuid = "7BEBC8F4-73AF-4884-9BD3-59B4BDD6B56E - 63fbfac3fa679d6c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnAdBrowser.AdsViewModel.updateFavoriteStatus(for: Swift.String, isFavorite: Swift.Bool) -&gt; ()"
+                  moduleName = "FinnAdBrowser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saskaradosavljevic/Desktop/FINN/FinnAdBrowser/FinnAdBrowser/FinnAdBrowser/ViewModels/AdsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "328">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "25725C24-4FF1-44D7-B816-57045298ECD8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnAdBrowser/ViewModels/AdsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "loadFavorites()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "25725C24-4FF1-44D7-B816-57045298ECD8 - 8dbbecd7a2421812"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnAdBrowser.AdsViewModel.loadFavorites() -&gt; ()"
+                  moduleName = "FinnAdBrowser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saskaradosavljevic/Desktop/FINN/FinnAdBrowser/FinnAdBrowser/FinnAdBrowser/ViewModels/AdsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "396">
+               </Location>
+               <Location
+                  uuid = "25725C24-4FF1-44D7-B816-57045298ECD8 - 8dbbecd7a2421812"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnAdBrowser.AdsViewModel.loadFavorites() -&gt; ()"
+                  moduleName = "FinnAdBrowser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saskaradosavljevic/Desktop/FINN/FinnAdBrowser/FinnAdBrowser/FinnAdBrowser/ViewModels/AdsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "1352">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8A59C510-E1D2-4CBB-8928-53446F3DE84C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnAdBrowser/ViewModels/AdsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "loadFavorites()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EB3AF1BE-7DC4-44AE-B98F-87FE2F2AEA5C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnAdBrowser/ViewModels/AdsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "updateFavoriteStatus(for:isFavorite:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EB3AF1BE-7DC4-44AE-B98F-87FE2F2AEA5C - 63fbfac3fa679ea2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnAdBrowser.AdsViewModel.updateFavoriteStatus(for: Swift.String, isFavorite: Swift.Bool) -&gt; ()"
+                  moduleName = "FinnAdBrowser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saskaradosavljevic/Desktop/FINN/FinnAdBrowser/FinnAdBrowser/FinnAdBrowser/ViewModels/AdsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "1132">
+               </Location>
+               <Location
+                  uuid = "EB3AF1BE-7DC4-44AE-B98F-87FE2F2AEA5C - 63fbfac3fa679e85"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinnAdBrowser.AdsViewModel.updateFavoriteStatus(for: Swift.String, isFavorite: Swift.Bool) -&gt; ()"
+                  moduleName = "FinnAdBrowser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saskaradosavljevic/Desktop/FINN/FinnAdBrowser/FinnAdBrowser/FinnAdBrowser/ViewModels/AdsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "1132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "452FBB84-FD5F-49D6-8B2E-C230317CAE3F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinnAdBrowser/AppearanceConfiguration.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "AppearanceConfigurator"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

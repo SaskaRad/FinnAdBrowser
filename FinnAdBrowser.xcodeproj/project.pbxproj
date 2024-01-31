@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		E0B870432B68440E0062C8E5 /* FinnAdBrowserApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B870422B68440E0062C8E5 /* FinnAdBrowserApp.swift */; };
-		E0B870452B68440E0062C8E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B870442B68440E0062C8E5 /* ContentView.swift */; };
 		E0B870472B6844100062C8E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0B870462B6844100062C8E5 /* Assets.xcassets */; };
 		E0B8704A2B6844100062C8E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0B870492B6844100062C8E5 /* Preview Assets.xcassets */; };
 		E0B870542B6844100062C8E5 /* FinnAdBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B870532B6844100062C8E5 /* FinnAdBrowserTests.swift */; };
 		E0B8705E2B6844100062C8E5 /* FinnAdBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B8705D2B6844100062C8E5 /* FinnAdBrowserUITests.swift */; };
 		E0B870602B6844100062C8E5 /* FinnAdBrowserUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B8705F2B6844100062C8E5 /* FinnAdBrowserUITestsLaunchTests.swift */; };
+		E0B870712B6862400062C8E5 /* AdDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B870702B6862400062C8E5 /* AdDTO.swift */; };
+		E0B870732B6864510062C8E5 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B870722B6864510062C8E5 /* NetworkService.swift */; };
+		E0B870752B6866710062C8E5 /* AdsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B870742B6866710062C8E5 /* AdsViewModel.swift */; };
+		E0B870772B6877490062C8E5 /* AdTypesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B870762B6877490062C8E5 /* AdTypesView.swift */; };
+		E0B8707C2B69376C0062C8E5 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B8707B2B69376C0062C8E5 /* ColorExtension.swift */; };
+		E0B870802B69636E0062C8E5 /* FavoritesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B8707F2B69636E0062C8E5 /* FavoritesRepository.swift */; };
+		E0B870822B69910D0062C8E5 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B870812B69910D0062C8E5 /* ImageCache.swift */; };
+		E0B870842B69A2930062C8E5 /* AppearanceConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B870832B69A2930062C8E5 /* AppearanceConfiguration.swift */; };
+		E0B870862B69BC8D0062C8E5 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B870852B69BC8D0062C8E5 /* FavoritesView.swift */; };
+		E0B870882B69D9BD0062C8E5 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B870872B69D9BD0062C8E5 /* LaunchView.swift */; };
+		E0B8708C2B6A606C0062C8E5 /* AdTypeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B8708B2B6A606C0062C8E5 /* AdTypeListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +46,6 @@
 /* Begin PBXFileReference section */
 		E0B8703F2B68440E0062C8E5 /* FinnAdBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinnAdBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0B870422B68440E0062C8E5 /* FinnAdBrowserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinnAdBrowserApp.swift; sourceTree = "<group>"; };
-		E0B870442B68440E0062C8E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E0B870462B6844100062C8E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0B870492B6844100062C8E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E0B8704F2B6844100062C8E5 /* FinnAdBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinnAdBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +53,17 @@
 		E0B870592B6844100062C8E5 /* FinnAdBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinnAdBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0B8705D2B6844100062C8E5 /* FinnAdBrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinnAdBrowserUITests.swift; sourceTree = "<group>"; };
 		E0B8705F2B6844100062C8E5 /* FinnAdBrowserUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinnAdBrowserUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E0B870702B6862400062C8E5 /* AdDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdDTO.swift; sourceTree = "<group>"; };
+		E0B870722B6864510062C8E5 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		E0B870742B6866710062C8E5 /* AdsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsViewModel.swift; sourceTree = "<group>"; };
+		E0B870762B6877490062C8E5 /* AdTypesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdTypesView.swift; sourceTree = "<group>"; };
+		E0B8707B2B69376C0062C8E5 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		E0B8707F2B69636E0062C8E5 /* FavoritesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesRepository.swift; sourceTree = "<group>"; };
+		E0B870812B69910D0062C8E5 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		E0B870832B69A2930062C8E5 /* AppearanceConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceConfiguration.swift; sourceTree = "<group>"; };
+		E0B870852B69BC8D0062C8E5 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		E0B870872B69D9BD0062C8E5 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		E0B8708B2B6A606C0062C8E5 /* AdTypeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdTypeListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +114,13 @@
 		E0B870412B68440E0062C8E5 /* FinnAdBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				E0B8708D2B6A65A40062C8E5 /* Common */,
+				E0B8707A2B6937390062C8E5 /* Extensions */,
+				E0B8706E2B6861390062C8E5 /* Network */,
+				E0B8706D2B6861260062C8E5 /* Model */,
+				E0B8706C2B6861190062C8E5 /* Views */,
+				E0B8706F2B68617E0062C8E5 /* ViewModels */,
 				E0B870422B68440E0062C8E5 /* FinnAdBrowserApp.swift */,
-				E0B870442B68440E0062C8E5 /* ContentView.swift */,
 				E0B870462B6844100062C8E5 /* Assets.xcassets */,
 				E0B870482B6844100062C8E5 /* Preview Content */,
 			);
@@ -125,6 +150,59 @@
 				E0B8705F2B6844100062C8E5 /* FinnAdBrowserUITestsLaunchTests.swift */,
 			);
 			path = FinnAdBrowserUITests;
+			sourceTree = "<group>";
+		};
+		E0B8706C2B6861190062C8E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E0B870762B6877490062C8E5 /* AdTypesView.swift */,
+				E0B8708B2B6A606C0062C8E5 /* AdTypeListView.swift */,
+				E0B870852B69BC8D0062C8E5 /* FavoritesView.swift */,
+				E0B870872B69D9BD0062C8E5 /* LaunchView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E0B8706D2B6861260062C8E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E0B870702B6862400062C8E5 /* AdDTO.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E0B8706E2B6861390062C8E5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E0B8707F2B69636E0062C8E5 /* FavoritesRepository.swift */,
+				E0B870722B6864510062C8E5 /* NetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E0B8706F2B68617E0062C8E5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E0B870742B6866710062C8E5 /* AdsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E0B8707A2B6937390062C8E5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E0B8707B2B69376C0062C8E5 /* ColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E0B8708D2B6A65A40062C8E5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E0B870832B69A2930062C8E5 /* AppearanceConfiguration.swift */,
+				E0B870812B69910D0062C8E5 /* ImageCache.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +335,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0B870452B68440E0062C8E5 /* ContentView.swift in Sources */,
+				E0B870822B69910D0062C8E5 /* ImageCache.swift in Sources */,
+				E0B870882B69D9BD0062C8E5 /* LaunchView.swift in Sources */,
+				E0B870752B6866710062C8E5 /* AdsViewModel.swift in Sources */,
+				E0B8707C2B69376C0062C8E5 /* ColorExtension.swift in Sources */,
+				E0B870842B69A2930062C8E5 /* AppearanceConfiguration.swift in Sources */,
 				E0B870432B68440E0062C8E5 /* FinnAdBrowserApp.swift in Sources */,
+				E0B8708C2B6A606C0062C8E5 /* AdTypeListView.swift in Sources */,
+				E0B870732B6864510062C8E5 /* NetworkService.swift in Sources */,
+				E0B870862B69BC8D0062C8E5 /* FavoritesView.swift in Sources */,
+				E0B870712B6862400062C8E5 /* AdDTO.swift in Sources */,
+				E0B870802B69636E0062C8E5 /* FavoritesRepository.swift in Sources */,
+				E0B870772B6877490062C8E5 /* AdTypesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

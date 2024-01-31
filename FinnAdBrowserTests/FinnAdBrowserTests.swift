@@ -9,28 +9,47 @@ import XCTest
 @testable import FinnAdBrowser
 
 final class FinnAdBrowserTests: XCTestCase {
-
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    
+    var mockService: MockNetworkService!
+    var viewModel: AdsViewModel!
+    
+    override func setUp() {
+        super.setUp()
+        mockService = MockNetworkService()
+        viewModel = AdsViewModel(networkService: mockService)
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    
+    func testFetchAdsListSuccess() async {
+        mockService.mockData =  [
+            AdItemsContainer(
+                description: "Idyllisk sørlandshus til leie i skoleåret 2023/2024",
+                id: "148834990",
+                url: "/148834990",
+                adType: "REALESTATE",
+                location: "Grimstad",
+                type: "AD",
+                price: Price(value: 10000, total: 1200),
+                image: AdImage(url: "2019/8/vertical-2/04/l/nul/l_1451344711.jpg",
+                               height: 3024,
+                               width: 4032,
+                               type: "GENERAL",
+                               scalable: true),
+                score: 0.17876637,
+                version: "mul-pop-thompzon",
+                favourite: Favourite(itemId: "148834990", itemType: "Ad")
+            )
+        ]
+        
+        await viewModel.fetchAdsList()
+   
+        XCTAssertFalse(viewModel.ads.isEmpty, "Ads should be updated")
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    
+    func testFetchAdsListFailure() async {
+        mockService.mockError = NetworkingError.dataProcessingError
+        
+        await viewModel.fetchAdsList()
+        
+        XCTAssertNotNil(viewModel.errorMessage, "Error fetching ads list")
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
 }
