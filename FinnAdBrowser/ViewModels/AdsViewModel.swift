@@ -9,7 +9,7 @@ import Foundation
 
 class AdsViewModel: ObservableObject {
     
-    let networkService: AdsServiceProtocol
+    private let networkService: AdsServiceProtocol
     private var favoritesRepository = FavoritesRepository()
     
     @Published var ads: [AdItemsContainer] = []
@@ -83,27 +83,19 @@ class AdsViewModel: ObservableObject {
              ads[index].isFavorite = favoriteIds.contains(ad.id)
          }
     }
-}
-
-extension AdsViewModel {
+    
     var realEstateAds: [AdItemsContainer] {
         ads.filter { $0.adType == "REALESTATE" }
     }
-}
-
-extension AdsViewModel {
+    
     var favorites: [AdItemsContainer] {
         ads.filter { $0.isFavorite }
     }
-}
-
-extension AdsViewModel {
+    
     func isGridView(_ adType: String) -> Bool {
         return adType == "BAP"
     }
-}
-
-extension AdsViewModel {
+    
     func hasFavorites(for adType: String) -> Bool {
         if adType == "All" {
             return !favorites.isEmpty
